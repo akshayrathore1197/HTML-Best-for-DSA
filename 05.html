@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media</title>
+    <title>HTML Structural Elements Example</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Website Header</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <header>
+                <h2>Welcome to the Homepage</h2>
+            </header>
+            <article>
+                <p>This is an <mark>important</mark> message for all users.</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <header>
+                <h2>About Us</h2>
+            </header>
+            <figure>
+                <img src="https://via.placeholder.com/300" alt="Sample Image">
+                <figcaption>This is a placeholder image with a caption.</figcaption>
+            </figure>
+        </section>
+
+        <aside>
+            <h3>Did You Know?</h3>
+            <p>Interesting facts and side information can be placed here.</p>
+        </aside>
+
+        <section id="details">
+            <header>
+                <h2>More Information</h2>
+            </header>
+            <details>
+                <summary>Click here to see more details</summary>
+                <p>This section contains additional information that can be shown or hidden.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>Website created on <time datetime="2024-10-01">October 1, 2024</time>.</p>
+        <p>Contact us via <a href="mailto:support@example.com">email</a>.</p>
+    </footer>
 </body>
 </html>
